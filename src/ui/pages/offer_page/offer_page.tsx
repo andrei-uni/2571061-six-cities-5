@@ -105,7 +105,7 @@ export function OfferPage() {
               </div>
               <div className="offer__rating rating">
                 <div className="offer__stars rating__stars">
-                  <span style={{ width: "80%" }} />
+                  <span style={{ width: '80%' }} />
                   <span className="visually-hidden">Rating</span>
                 </div>
                 <span className="offer__rating-value rating__value">4.8</span>
@@ -189,7 +189,7 @@ export function OfferPage() {
                     <div className="reviews__info">
                       <div className="reviews__rating rating">
                         <div className="reviews__stars rating__stars">
-                          <span style={{ width: "80%" }} />
+                          <span style={{ width: '80%' }} />
                           <span className="visually-hidden">Rating</span>
                         </div>
                       </div>
@@ -295,13 +295,13 @@ export function OfferPage() {
                     id="review"
                     name="review"
                     placeholder="Tell how was your stay, what you like and what can be improved"
-                    defaultValue={""}
+                    defaultValue={''}
                   />
                   <div className="reviews__button-wrapper">
                     <p className="reviews__help">
-                      To submit review please make sure to set{" "}
+                      To submit review please make sure to set{' '}
                       <span className="reviews__star">rating</span> and describe
-                      your stay with at least{" "}
+                      your stay with at least{' '}
                       <b className="reviews__text-amount">50 characters</b>.
                     </p>
                     <button
@@ -358,7 +358,7 @@ export function OfferPage() {
                   </div>
                   <div className="place-card__rating rating">
                     <div className="place-card__stars rating__stars">
-                      <span style={{ width: "80%" }} />
+                      <span style={{ width: '80%' }} />
                       <span className="visually-hidden">Rating</span>
                     </div>
                   </div>
@@ -402,7 +402,7 @@ export function OfferPage() {
                   </div>
                   <div className="place-card__rating rating">
                     <div className="place-card__stars rating__stars">
-                      <span style={{ width: "80%" }} />
+                      <span style={{ width: '80%' }} />
                       <span className="visually-hidden">Rating</span>
                     </div>
                   </div>
@@ -449,7 +449,7 @@ export function OfferPage() {
                   </div>
                   <div className="place-card__rating rating">
                     <div className="place-card__stars rating__stars">
-                      <span style={{ width: "100%" }} />
+                      <span style={{ width: '100%' }} />
                       <span className="visually-hidden">Rating</span>
                     </div>
                   </div>

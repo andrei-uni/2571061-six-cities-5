@@ -97,7 +97,7 @@ export function OfferNotLoggedPage() {
               </div>
               <div className="offer__rating rating">
                 <div className="offer__stars rating__stars">
-                  <span style={{ width: "80%" }} />
+                  <span style={{ width: '80%' }} />
                   <span className="visually-hidden">Rating</span>
                 </div>
                 <span className="offer__rating-value rating__value">4.8</span>
@@ -181,7 +181,7 @@ export function OfferNotLoggedPage() {
                     <div className="reviews__info">
                       <div className="reviews__rating rating">
                         <div className="reviews__stars rating__stars">
-                          <span style={{ width: "80%" }} />
+                          <span style={{ width: '80%' }} />
                           <span className="visually-hidden">Rating</span>
                         </div>
                       </div>
@@ -241,7 +241,7 @@ export function OfferNotLoggedPage() {
                   </div>
                   <div className="place-card__rating rating">
                     <div className="place-card__stars rating__stars">
-                      <span style={{ width: "80%" }} />
+                      <span style={{ width: '80%' }} />
                       <span className="visually-hidden">Rating</span>
                     </div>
                   </div>
@@ -285,7 +285,7 @@ export function OfferNotLoggedPage() {
                   </div>
                   <div className="place-card__rating rating">
                     <div className="place-card__stars rating__stars">
-                      <span style={{ width: "80%" }} />
+                      <span style={{ width: '80%' }} />
                       <span className="visually-hidden">Rating</span>
                     </div>
                   </div>
@@ -332,7 +332,7 @@ export function OfferNotLoggedPage() {
                   </div>
                   <div className="place-card__rating rating">
                     <div className="place-card__stars rating__stars">
-                      <span style={{ width: "100%" }} />
+                      <span style={{ width: '100%' }} />
                       <span className="visually-hidden">Rating</span>
                     </div>
                   </div>
