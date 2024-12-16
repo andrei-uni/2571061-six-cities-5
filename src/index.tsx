@@ -1,8 +1,13 @@
 import ReactDOM from 'react-dom/client';
-import { App } from './app';
+import { App } from './ui/components/app';
+import React from 'react';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
-root.render(<App cardsCount={5} />);
+root.render(
+  <React.StrictMode>
+    <App cardsCount={5} />
+  </React.StrictMode>
+);
