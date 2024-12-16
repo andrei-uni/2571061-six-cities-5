@@ -1,4 +1,4 @@
-import { Card } from "./card";
+import { Card } from './card';
 
 export function MainPage(props: { cardsCount: number }) {
   return (
@@ -112,7 +112,7 @@ export function MainPage(props: { cardsCount: number }) {
               </form>
               <div className="cities__places-list places__list tabs__content">
                 {
-                  Array.from({ length: props.cardsCount }).map((_) => <Card />)
+                  Array.from({ length: props.cardsCount }).map(() => <Card />)
                 }
               </div>
             </section>
