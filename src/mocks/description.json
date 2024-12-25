@@ -1,0 +1,43 @@
+{
+  "id": "8d31e784-4499-409c-bbd5-fd4bee5038f6",
+  "title": "Loft Studio in the Central Area",
+  "description": "Design interior in most sympathetic area! Complitely renovated, well-equipped, cosy studio in idyllic, over 100 years old wooden house. Calm street, fast connection to center and airport.",
+  "type": "room",
+  "price": 194,
+  "images": [
+    "https://14.design.htmlacademy.pro/static/hotel/6.jpg",
+    "https://14.design.htmlacademy.pro/static/hotel/18.jpg",
+    "https://14.design.htmlacademy.pro/static/hotel/20.jpg",
+    "https://14.design.htmlacademy.pro/static/hotel/11.jpg",
+    "https://14.design.htmlacademy.pro/static/hotel/16.jpg",
+    "https://14.design.htmlacademy.pro/static/hotel/19.jpg"
+  ],
+  "city": {
+    "name": "Cologne",
+    "location": {
+      "latitude": 50.938361,
+      "longitude": 6.959974,
+      "zoom": 13
+    }
+  },
+  "location": {
+    "latitude": 50.913361,
+    "longitude": 6.9509739999999995,
+    "zoom": 16
+  },
+  "goods": [
+    "Breakfast",
+    "Cable TV",
+    "Washer"
+  ],
+  "host": {
+    "isPro": true,
+    "name": "Angelina",
+    "avatarUrl": "https://14.design.htmlacademy.pro/static/host/avatar-angelina.jpg"
+  },
+  "isPremium": true,
+  "isFavorite": false,
+  "rating": 3.5,
+  "bedrooms": 3,
+  "maxAdults": 2
+}

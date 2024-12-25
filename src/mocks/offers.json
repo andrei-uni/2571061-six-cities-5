@@ -1,0 +1,94 @@
+[
+  {
+    "id": "8d31e784-4499-409c-bbd5-fd4bee5038f6",
+    "title": "Loft Studio in the Central Area",
+    "type": "room",
+    "price": 194,
+    "previewImage": "https://14.design.htmlacademy.pro/static/hotel/2.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.913361,
+      "longitude": 6.9509739999999995,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 1.5
+  },
+  {
+    "id": "12b9c7eb-e915-4dec-9e1a-91e979c023a8",
+    "title": "Amazing and Extremely Central Flat",
+    "type": "room",
+    "price": 213,
+    "previewImage": "https://14.design.htmlacademy.pro/static/hotel/1.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.930361,
+      "longitude": 6.937974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 1.2
+  },
+  {
+    "id": "7ddc8143-db29-4b08-b3f5-ac379baeec3b",
+    "title": "Nice, cozy, warm big bed apartment",
+    "type": "room",
+    "price": 205,
+    "previewImage": "https://14.design.htmlacademy.pro/static/hotel/1.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.960361,
+      "longitude": 6.9509739999999995,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": false,
+    "rating": 2
+  },
+  {
+    "id": "035c628f-6541-42a1-8610-25bb07869389",
+    "title": "Wood and stone place",
+    "type": "apartment",
+    "price": 381,
+    "previewImage": "https://14.design.htmlacademy.pro/static/hotel/11.jpg",
+    "city": {
+      "name": "Cologne",
+      "location": {
+        "latitude": 50.938361,
+        "longitude": 6.959974,
+        "zoom": 13
+      }
+    },
+    "location": {
+      "latitude": 50.918461,
+      "longitude": 6.969974,
+      "zoom": 16
+    },
+    "isFavorite": false,
+    "isPremium": true,
+    "rating": 2.2
+  }
+]
