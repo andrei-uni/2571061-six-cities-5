@@ -7,14 +7,25 @@ import { OfferPage } from '../pages/offer-page/offer-page';
 import { AppRoutes } from '../../app-routes';
 import { PrivateRoute } from './private-route';
 import { AuthorizationStatus } from '../../types/authorization-status';
+import { OfferPreview } from '../../types/offer/offer-preview';
+import { OfferComment } from '../../types/offer/offer-comment';
+import { OfferFull } from '../../types/offer/offer-full';
 
-export function App(props: { cardsCount: number }) {
+type AppProps = {
+  offers: OfferPreview[];
+  favorires: OfferPreview[];
+  offerDescription: OfferFull;
+  nearOffers: OfferPreview[];
+  comments: OfferComment[];
+}
+
+export function App({ offers, favorires, offerDescription, nearOffers, comments }: AppProps) {
   return (
     <BrowserRouter>
       <Routes>
         <Route
           path={AppRoutes.Main}
-          element={<MainPage cardsCount={props.cardsCount} />}
+          element={<MainPage offerPreviews={offers} />}
         />
         <Route
           path={AppRoutes.Login}
@@ -24,13 +35,13 @@ export function App(props: { cardsCount: number }) {
           path={AppRoutes.Favorites}
           element={
             <PrivateRoute authorizationStatus={AuthorizationStatus.Auth}>
-              <FavoritesPage />
+              <FavoritesPage offerPreviews={favorires} />
             </PrivateRoute>
           }
         />
         <Route
           path={AppRoutes.Offer}
-          element={<OfferPage />}
+          element={<OfferPage offerFull={offerDescription} nearOffers={nearOffers} comments={comments} />}
         />
         <Route
           path="*"
